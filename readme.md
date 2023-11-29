@@ -1,6 +1,6 @@
 # MIDI Generation
 ## Description
-This repository includes the project for the third homework of the course "Deep Learning for Music Analysis and Generation" lectured by Prof. Yang at the National Taiwan University. The main goals of this work is to train a midi generator model on the [pop1k7](https://github.com/YatingMusic/compound-word-transformer) dataset. During inference, the model will randomly generate midi and audio pairs.
+This repository includes the project for the third homework of the course "Deep Learning for Music Analysis and Generation" lectured by Prof. Yang at the National Taiwan University. The main goals of this work is to train a midi generator model on the [pop1k7](https://github.com/YatingMusic/compound-word-transformer) dataset. During inference, the model will randomly generate midi and audio pairs. Most of the codes are based on the sample tutorials provided by the TAs of the course.
 ## Create Environment 
 ```bash
 pip install -r requirements.txt
