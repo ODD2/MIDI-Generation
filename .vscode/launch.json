@@ -9,7 +9,20 @@
             "type": "python",
             "request": "launch",
             "module": "main",
-            "justMyCode": true
+            "args": [
+                // "--debug",
+                "--model_ver=v2",
+                // "--batch_size=16",
+                "--mode=test",
+                // "--ckp_path=checkpoints/p1psald7/epoch_050.pkl",
+                "--ckp_path=checkpoints/widefcow/epoch_072.pkl",
+                "--num_samples=20",
+                "--temperature=3.0",
+                "--out_prefix=testtest",
+                "--sample_mode=nucleus",
+                "--nucleus_p=0.6"
+            ],
+            "justMyCode": false
         },
         {
             "name": "Python: Current File",

@@ -1,3 +1,7 @@
 dataset/
 MusDr/
 ***/__pycache__
+checkpoints/
+results/
+wandb/
+*.wav
